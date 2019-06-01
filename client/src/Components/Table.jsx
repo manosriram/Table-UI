@@ -23,15 +23,6 @@ const Table = () => {
     setBuyTotal(BTCtemp);
     setSell(buyB);
     setBuy(sellTemp);
-
-    let left = document.getElementsByClassName("leftOne");
-    let right = document.getElementsByClassName("rightOne");
-    for (let t = 0; t < right.length; t++) {
-      right[t].style.color = "red";
-    }
-    for (let t = 0; t < left.length; t++) {
-      left[t].style.color = "green";
-    }
   };
 
   const fetchData = async () => {
