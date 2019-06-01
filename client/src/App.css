@@ -1,0 +1,61 @@
+* {
+  text-align: center;
+  margin-left: 15px;
+  font-family: "Francois One", sans-serif;
+}
+
+body,
+html {
+  color: white;
+  /* background: #2f363f; */
+  background: #2c3a47;
+}
+
+.leftOne {
+  color: red;
+}
+
+.rightOne {
+  color: green;
+}
+
+#t1 {
+  float: left;
+}
+#t2 {
+  float: right;
+}
+
+#TD {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+#TR1 {
+  margin-left: 20px;
+}
+
+#TableTwo {
+  float: right;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 300px;
+}
+
+#TableOne {
+  float: left;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+#swap {
+  margin-top: 25px;
+  background: white;
+  width: 50px;
+  border-radius: 6px;
+}
+
+#swap:hover {
+  cursor: pointer;
+}
